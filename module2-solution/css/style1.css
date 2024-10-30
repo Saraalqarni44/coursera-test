@@ -1,115 +1,18 @@
 body {
-    font-family: 'comic sans MS',cursive, sans-serif;
-    font-size: 15px;
-    margin-top:10px;
-    padding: 10px;
+    margin: 0;
+    padding: 0;
 }
 
-h1 {
-        font-family: 'comic sans MS',cursive, sans-serif;
-    font-size: 28px;
-    margin-bottom: 30px;
-    text-align: center;
+.tall-section {
+    height: 1000px; /* Adjust height as needed */
+    background-color: #f8f8f8; /* Distinguishing background color */
+    padding: 20px; /* Add some padding */
 }
 
-.container {
-    margin: 10px;
-    padding: 10px;
-
+.navbar {
+    margin-bottom: 0; /* Remove bottom margin */
 }
 
-.section {
-    background-color: grey;
-    border: 2px solid black;
-    box-sizing: border-box;
-    position: relative;
-    margin: 10px;
-}
-
-.title {
-    background-color: #CE8282;
-    border: 1px solid;
-    padding: 3px;
-    float: right;
-    top:20% ;
-    right: 50%;
-    width: 25%;
-text-align: center;
-
-}
-.title1 {
-    background-color: #943838;
-    border: 1px solid;
-    padding: 3px;
-    float: right;
-    top: 20px;
-    right: 50%;
-    width: 20%;
-text-align: center;
-}.title2 {
-    background-color: #DAC262;
-    border: 1px solid;
-    padding: 3px;
-    float: right;
-    top: 20px;
-    right: 50px;
-    width: 20%;
-    text-align: center;
-}
-.section p {
-    margin-top: 35px;
-    padding: 10px;
-    justify-content: center;
-
-}
-
-@media (min-width: 992px) {
-    .container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-    .section {
-        flex-basis: 31%;
-        margin: 10px;
-        width: 150px;
-        height: 150px;
-    }
-    .section:nth-child(3) {
-        flex-basis: 31%;
-        margin: 10px;
-        width: 150px;
-        height: 150px
-    }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-    .container {
-        display: flex;
-        margin: 10px;
-            flex-wrap: wrap;
-        justify-content: space-between;
-    }
-    .section {
-        flex-basis: 48%;
-        margin: 10px 0;
-
-    }
-    .section:nth-child(3) {
-        flex-basis: 100%;
-        margin: 10px 0;
-    }
-    
-}
-
-@media (max-width: 767px) {
-    .container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    .section {
-        flex-basis: 100%;
-        margin: 10px;
-    }
+.navbar-collapse {
+    background-color: #fff; /* Background color for dropdown menu */
 }
