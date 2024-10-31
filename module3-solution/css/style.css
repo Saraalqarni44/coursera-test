@@ -81,13 +81,13 @@ navbar-brand {
 
 
 
-
-div .row p {
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
-	color: black;
-	background-color: grey;
-	font-size: 20px; 
-    margin: 50px; 
-    padding: 10px ;
+.item {
+    background-color: grey;
+    font-size: 20px; 
+    margin: 20px; 
+    padding: 6px ;
    text-align: center;
+}
+p{
+	color: black;
 }
