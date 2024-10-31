@@ -1,0 +1,92 @@
+body{
+	font-size: 16 px;
+	color :#fff;
+	background-color: #fff ;
+    font-family: "Comic Sans MS", "Comic Sans", cursive; 
+    text-align: center;
+
+}
+div p{
+	font-size: 26px ;
+	font-family: "Comic Sans MS", "Comic Sans", cursive; 
+    color: black;
+}
+#header-nav{
+	background-color: grey;
+	border-radius: 0;
+	border: 0;
+	border: 5px solid black; 
+
+}
+.navbar-brand p{
+    color: black !important;
+    font-size: 24px; 
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .30;
+    padding-left: 20px;
+    display: inline-block;
+    border-left: 1px solid black;
+    border-inline: black;
+    
+}
+
+
+
+
+navbar-brand {
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	color: black;
+	font-size: 26px; 
+	text-align: center;
+	display: inline-block;
+    border-left: 1px solid black;
+    border-inline: black;
+
+}
+.nav navbar-nav visible-xs{
+	background-color: white;
+	text-align: center;
+	margin: 10px;
+	display: inline-block;
+    border-left: 1px solid black;
+    border-inline: black;
+}
+.header-nav button.navbar-toggle, .navbar-header .icon-bar{
+	border: 2px solid black ;
+	border-color: black;
+	text-align: center;
+
+}
+.navbar-nav ,.visible-xs{
+	background-color: white;
+	border-color: black;
+	justify-content: center;
+  	display: inline-block;
+    border-left: 1px solid black;
+    border-inline: black;
+}
+#navbar-collapse  il{
+	border: 5px black;
+	background-color: white;
+	border-inline: black;
+	display: inline-block;
+         border-block: 1px solid red;
+         border-left: 1px solid #000000
+}
+
+
+
+
+div .row p {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+	color: black;
+	background-color: grey;
+	font-size: 20px; 
+    margin: 50px; 
+    padding: 10px ;
+   text-align: center;
+}
